@@ -86,7 +86,7 @@ ns.dimiss();
 # Example
 on method returns current object of class so you can make chain of your code like example below.
 
-> Note: that example below is for [NeoSocket(PHP)](#x) library which allow you to transfer data with event types. if you are using other server-side library use `nsraw` event-type to read messages.
+> Note: that example below is for [NeoSocket(PHP)](https://github.com/mzohaibnaz/neosocket) library which allow you to transfer data with event types. if you are using other server-side library use `nsraw` event-type to read messages.
 ```js
 // create object
 var  ns  =  new  NeoSocket();
