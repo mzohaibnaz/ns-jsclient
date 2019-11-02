@@ -1,18 +1,18 @@
 
 # NeoSocket Client - Javascript
 
-NeoSocket Client is simple javascript library to manage your [NeoSocket(PHP)](#x) connections on client side. but still this library can be used for client-side to any socket. :)
+NeoSocket Client is simple javascript library to manage your [NeoSocket(PHP)](https://github.com/mzohaibnaz/neosocket) connections on client side. but still this library can be used for client-side to any socket. :)
 
 ## Installation
 
   - Using NPM
  
 ```sh
-$ npm install neosocket-client
+$ npm install ns-jsclient
 ```
   - Vanilla JS File
 
-> $ [Click Here](#s) to Download JS File
+> $ Download neosocket-client.js file and add on your project
 
 ## How to use
   - [Initializing](#create-object-of-class)
@@ -99,5 +99,5 @@ ns.on("connected", () => {
 	ns.event("bye").send("bye server!");
 }).on("disconnected", () =>  alert("you are disconnected!"));
 ```
-
-**Good luck :)**
+# License
+[MIT](https://choosealicense.com/licenses/mit/)
